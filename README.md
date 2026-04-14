@@ -34,7 +34,7 @@ export ALPHA_SOON_MINUTES="120"
 
 如果发件人和收件人是同一个邮箱，只配 `ALPHA_SMTP_USER` 和 `ALPHA_SMTP_PASSWORD` 也可以。
 
-## 运行
+## 本地运行
 
 先验证接口和邮件配置：
 
@@ -54,36 +54,55 @@ python3 alpha_monitor.py
 python3 alpha_monitor.py --dry-run --verbose
 ```
 
-## PythonAnywhere 说明
+## GitHub Actions 部署
 
-脚本本身兼容 PythonAnywhere 的普通 Python 环境，因为它只依赖标准库。
+仓库里已经包含半小时执行一次的 workflow：
 
-但是要注意平台限制：
+- `.github/workflows/alpha-monitor.yml`
 
-- 2026-04 时点，新的 PythonAnywhere 免费账号没有 scheduled tasks
-- 免费账号的外网访问是白名单制，`alphac.cc` 大概率不在白名单里
-- 免费账号不能指望直接走 QQ SMTP 做自动发信
+它会做三件事：
 
-所以这份脚本适合以下场景：
+- 每 30 分钟执行一次监控
+- 发现变化时发送 QQ 邮件
+- 自动把 `alpha_monitor_state.json` 提交回仓库，保证下次运行还能继续做差异对比
 
-- 你有 PythonAnywhere 付费账号
-- 你有较早注册、仍带定时能力的旧免费账号，并且目标站点可访问
-- 你把脚本部署到本地、VPS、GitHub Actions、其他支持外网和 SMTP 的环境
+### 你需要在 GitHub 仓库里配置的 Secret
 
-如果你必须“全自动 + 低成本”，更现实的方案通常是：
+进入仓库：
 
-1. 付费 PythonAnywhere 计划
-2. GitHub Actions / 其他免费 CI 跑脚本
-3. 本地 NAS / 轻量服务器 / 云函数
+`Settings -> Secrets and variables -> Actions -> New repository secret`
 
-## 建议轮询频率
+添加下面这个 secret：
 
-为了省资源，推荐 10 到 15 分钟执行一次。
+- `ALPHA_SMTP_PASSWORD`: 你的 QQ 邮箱授权码
 
-这个脚本每次只请求两个 JSON 接口，并且只有发现变化才发邮件，已经尽量压低了流量和 CPU。
+### Workflow 默认配置
+
+workflow 已经默认写好这些值：
+
+- 发件邮箱: `2386104975@qq.com`
+- 收件邮箱: `2386104975@qq.com`
+- SMTP: `smtp.qq.com:465`
+- 轮询频率: 每 30 分钟
+- 时区解释: `Asia/Shanghai`
+
+如果你后面想改收件邮箱或发件邮箱，可以直接改 workflow 里的 env。
+
+### 启用方式
+
+1. 把当前目录推到 GitHub 仓库。
+2. 在仓库 Secrets 里新增 `ALPHA_SMTP_PASSWORD`。
+3. 进入 `Actions` 页面，启用 workflow。
+4. 手动点一次 `Run workflow` 做首轮测试。
+
+## 轮询频率
+
+当前 workflow 是每 30 分钟执行一次。
+
+这个脚本每次只请求两个 JSON 接口，并且只有发现变化才发邮件，资源占用很低，适合 GitHub Actions 这种短时任务环境。
 
 默认按 `Asia/Shanghai` 解释页面时间；如果你确认页面时间不是北京时间，可以改 `ALPHA_TIMEZONE`。
 
 ## 安全提醒
 
-你刚才给过 QQ 授权码。建议你现在去 QQ 邮箱后台重置一次授权码，然后把新的值只放到环境变量里，不要再写入仓库。
+QQ 授权码不要写进仓库，只放到 GitHub Secrets 里。

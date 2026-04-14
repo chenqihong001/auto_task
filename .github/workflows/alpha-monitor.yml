@@ -1,0 +1,60 @@
+name: Alpha Monitor
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: alpha-monitor
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Run monitor
+        env:
+          PYTHONUNBUFFERED: "1"
+          ALPHA_REQUEST_TIMEOUT: "15"
+          ALPHA_TIMEZONE: "Asia/Shanghai"
+          ALPHA_SOON_MINUTES: "120"
+          ALPHA_SMTP_HOST: "smtp.qq.com"
+          ALPHA_SMTP_PORT: "465"
+          ALPHA_SMTP_SSL: "1"
+          ALPHA_SMTP_STARTTLS: "0"
+          ALPHA_SMTP_USER: "2386104975@qq.com"
+          ALPHA_EMAIL_FROM: "2386104975@qq.com"
+          ALPHA_EMAIL_TO: "2386104975@qq.com"
+          ALPHA_SMTP_PASSWORD: ${{ secrets.ALPHA_SMTP_PASSWORD }}
+        run: python3 alpha_monitor.py
+
+      - name: Commit updated state
+        run: |
+          if [ -z "$(git status --porcelain -- alpha_monitor_state.json)" ]; then
+            echo "No state change to commit."
+            exit 0
+          fi
+
+          git add alpha_monitor_state.json
+          git commit -m "chore: update alpha monitor state"
+          git push
