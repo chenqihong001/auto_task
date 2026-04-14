@@ -1,6 +1,42 @@
 {
   "initialized": true,
   "records": {
+    "today:ANOME ANOME 📋": {
+      "amount": "1000 (~$35.34)",
+      "category": "today",
+      "date": "",
+      "key": "today:ANOME ANOME 📋",
+      "points": "+235",
+      "project": "ANOME ANOME 📋",
+      "quantity": "1000 (~$35.34) ANOME",
+      "schedule_at": "2026-04-14T17:00:00+08:00",
+      "status": "active",
+      "time": "17:00"
+    },
+    "today:POWER POWER 📋": {
+      "amount": "300 (~$27.36)",
+      "category": "today",
+      "date": "",
+      "key": "today:POWER POWER 📋",
+      "points": "+235",
+      "project": "POWER POWER 📋",
+      "quantity": "300 (~$27.36) POWER",
+      "schedule_at": "2026-04-14T17:00:00+08:00",
+      "status": "active",
+      "time": "17:00"
+    },
+    "today:VELO VELO 📋": {
+      "amount": "10000 (~$34.30)",
+      "category": "today",
+      "date": "",
+      "key": "today:VELO VELO 📋",
+      "points": "+235",
+      "project": "VELO VELO 📋",
+      "quantity": "10000 (~$34.30) VELO",
+      "schedule_at": "2026-04-14T17:00:00+08:00",
+      "status": "active",
+      "time": "17:00"
+    },
     "today:🎯": {
       "amount": "",
       "category": "today",
@@ -14,6 +50,6 @@
       "time": "17:00"
     }
   },
-  "signature": "b46b783f709934768461dc9817a619ffc543fb27f45927f8a8a0f9cd282ae1ef",
+  "signature": "f9647dd802e60043c71d7d58f14e7aa9caabb07a7d38802400141a299272a21b",
   "soon_markers": {}
 }
