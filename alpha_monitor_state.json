@@ -1,55 +1,43 @@
 {
   "initialized": true,
   "records": {
-    "today:ANOME ANOME 📋": {
-      "amount": "1000 (~$35.34)",
+    "today:ANOME ANOME 🎯": {
+      "amount": "824 (~$24.03)",
       "category": "today",
       "date": "",
-      "key": "today:ANOME ANOME 📋",
+      "key": "today:ANOME ANOME 🎯",
       "points": "+235",
-      "project": "ANOME ANOME 📋",
-      "quantity": "1000 (~$35.34) ANOME",
-      "schedule_at": "2026-04-14T17:00:00+08:00",
+      "project": "ANOME ANOME 🎯",
+      "quantity": "824 (~$24.03) ANOME",
+      "schedule_at": "2026-04-15T17:00:00+08:00",
       "status": "active",
       "time": "17:00"
     },
-    "today:POWER POWER 📋": {
-      "amount": "300 (~$27.36)",
+    "today:POWER POWER 🎯": {
+      "amount": "315 (~$28.38)",
       "category": "today",
       "date": "",
-      "key": "today:POWER POWER 📋",
+      "key": "today:POWER POWER 🎯",
       "points": "+235",
-      "project": "POWER POWER 📋",
-      "quantity": "300 (~$27.36) POWER",
-      "schedule_at": "2026-04-14T17:00:00+08:00",
+      "project": "POWER POWER 🎯",
+      "quantity": "315 (~$28.38) POWER",
+      "schedule_at": "2026-04-15T17:00:00+08:00",
       "status": "active",
       "time": "17:00"
     },
-    "today:VELO VELO 📋": {
-      "amount": "10000 (~$34.30)",
+    "today:VELO VELO 🎯": {
+      "amount": "8750 (~$28.20)",
       "category": "today",
       "date": "",
-      "key": "today:VELO VELO 📋",
+      "key": "today:VELO VELO 🎯",
       "points": "+235",
-      "project": "VELO VELO 📋",
-      "quantity": "10000 (~$34.30) VELO",
-      "schedule_at": "2026-04-14T17:00:00+08:00",
-      "status": "active",
-      "time": "17:00"
-    },
-    "today:🎯": {
-      "amount": "",
-      "category": "today",
-      "date": "",
-      "key": "today:🎯",
-      "points": "+235",
-      "project": "🎯",
-      "quantity": "-",
-      "schedule_at": "2026-04-14T17:00:00+08:00",
+      "project": "VELO VELO 🎯",
+      "quantity": "8750 (~$28.20) VELO",
+      "schedule_at": "2026-04-15T17:00:00+08:00",
       "status": "active",
       "time": "17:00"
     }
   },
-  "signature": "f9647dd802e60043c71d7d58f14e7aa9caabb07a7d38802400141a299272a21b",
+  "signature": "eb65f1a642ffd7f16ab873451c49bd6b76aa97d5e42447536e428ac952707a9e",
   "soon_markers": {}
 }
