@@ -95,6 +95,12 @@ workflow 已经默认写好这些值：
 3. 进入 `Actions` 页面，启用 workflow。
 4. 手动点一次 `Run workflow` 做首轮测试。
 
+### 如何测试邮件是否可发
+
+在 `Actions -> Alpha Monitor -> Run workflow` 里把 `send_test_email` 选成 `true`，然后运行一次。
+
+如果配置正确，你会立刻收到一封主题为 `[Alpha监控] 测试邮件` 的邮件。
+
 ## 轮询频率
 
 当前 workflow 是每 30 分钟执行一次。

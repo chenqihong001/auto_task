@@ -4,6 +4,15 @@ on:
   schedule:
     - cron: "*/30 * * * *"
   workflow_dispatch:
+    inputs:
+      send_test_email:
+        description: "Send a test email instead of normal monitoring"
+        required: true
+        default: "false"
+        type: choice
+        options:
+          - "false"
+          - "true"
 
 permissions:
   contents: write
@@ -46,7 +55,12 @@ jobs:
           ALPHA_EMAIL_FROM: "2386104975@qq.com"
           ALPHA_EMAIL_TO: "2386104975@qq.com"
           ALPHA_SMTP_PASSWORD: ${{ secrets.ALPHA_SMTP_PASSWORD }}
-        run: python3 alpha_monitor.py
+        run: |
+          if [ "${{ github.event.inputs.send_test_email || 'false' }}" = "true" ]; then
+            python3 alpha_monitor.py --test-email
+          else
+            python3 alpha_monitor.py
+          fi
 
       - name: Commit updated state
         run: |
