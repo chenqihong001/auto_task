@@ -1,19 +1,43 @@
 {
   "initialized": true,
   "records": {
-    "today:🎯": {
-      "amount": "",
+    "today:AGT AGT 🎯": {
+      "amount": "2800 (~$34.22)",
       "category": "today",
       "date": "",
-      "key": "today:🎯",
+      "key": "today:AGT AGT 🎯",
       "points": "+242",
-      "project": "🎯",
-      "quantity": "-",
-      "schedule_at": "2026-04-17T17:00:00+08:00",
+      "project": "AGT AGT 🎯",
+      "quantity": "2800 (~$34.22) AGT",
+      "schedule_at": "2026-04-18T17:00:00+08:00",
+      "status": "active",
+      "time": "17:00"
+    },
+    "today:DAM DAM 🎯": {
+      "amount": "700 (~$28.93)",
+      "category": "today",
+      "date": "",
+      "key": "today:DAM DAM 🎯",
+      "points": "+242",
+      "project": "DAM DAM 🎯",
+      "quantity": "700 (~$28.93) DAM",
+      "schedule_at": "2026-04-18T17:00:00+08:00",
+      "status": "active",
+      "time": "17:00"
+    },
+    "today:HANA HANA 🎯": {
+      "amount": "700 (~$29.52)",
+      "category": "today",
+      "date": "",
+      "key": "today:HANA HANA 🎯",
+      "points": "+242",
+      "project": "HANA HANA 🎯",
+      "quantity": "700 (~$29.52) HANA",
+      "schedule_at": "2026-04-18T17:00:00+08:00",
       "status": "active",
       "time": "17:00"
     }
   },
-  "signature": "e1db469f68ccec3fd94048f243b0e9a826a30babdb128ffce5c857661c683304",
+  "signature": "3de3a34051760b9fedbb21d814542bbf7879d901c1423316e358192da453086b",
   "soon_markers": {}
 }
