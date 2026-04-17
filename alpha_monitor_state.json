@@ -2,13 +2,13 @@
   "initialized": true,
   "records": {
     "today:AGT AGT 🎯": {
-      "amount": "2800 (~$34.22)",
+      "amount": "2800 (~$31.67)",
       "category": "today",
       "date": "",
       "key": "today:AGT AGT 🎯",
       "points": "+242",
       "project": "AGT AGT 🎯",
-      "quantity": "2800 (~$34.22) AGT",
+      "quantity": "2800 (~$31.67) AGT",
       "schedule_at": "2026-04-18T17:00:00+08:00",
       "status": "active",
       "time": "17:00"
@@ -38,6 +38,6 @@
       "time": "17:00"
     }
   },
-  "signature": "3de3a34051760b9fedbb21d814542bbf7879d901c1423316e358192da453086b",
+  "signature": "421aeb3154787593f562830ce012b84dfc6acc3c5813a663a78e475233d41085",
   "soon_markers": {}
 }
