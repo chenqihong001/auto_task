@@ -1,19 +1,19 @@
 {
   "initialized": true,
   "records": {
-    "upcoming:OPG opengradient 🚀": {
+    "today:OPG opengradient 🚀": {
       "amount": "",
-      "category": "upcoming",
-      "date": "2026-04-21",
-      "key": "upcoming:OPG opengradient 🚀",
+      "category": "today",
+      "date": "",
+      "key": "today:OPG opengradient 🚀",
       "points": "-",
       "project": "OPG opengradient 🚀",
       "quantity": "-",
       "schedule_at": "2026-04-21T17:00:00+08:00",
-      "status": "upcoming",
+      "status": "active",
       "time": "17:00"
     }
   },
-  "signature": "f58bfbe8ec8e5e772e4e1ca4e650fa66c47163704ed443ba689d824da26ab727",
+  "signature": "664a72915b2ba0e8795f1fabbaefaf43d5c3b4090c85a3cbc62747d29b47d03d",
   "soon_markers": {}
 }
