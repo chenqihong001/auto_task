@@ -1,19 +1,43 @@
 {
   "initialized": true,
   "records": {
-    "today:OPG opengradient 🚀": {
-      "amount": "254.56",
+    "today:CHIP USDAI 📋": {
+      "amount": "",
       "category": "today",
       "date": "",
-      "key": "today:OPG opengradient 🚀",
+      "key": "today:CHIP USDAI 📋",
+      "points": "-",
+      "project": "CHIP USDAI 📋",
+      "quantity": "-",
+      "schedule_at": "",
+      "status": "active",
+      "time": "待公布"
+    },
+    "today:OPG OpenGradient 🚀": {
+      "amount": "254.56 (~$45.87)",
+      "category": "today",
+      "date": "",
+      "key": "today:OPG OpenGradient 🚀",
       "points": "+226",
-      "project": "OPG opengradient 🚀",
-      "quantity": "254.56 OPG",
+      "project": "OPG OpenGradient 🚀",
+      "quantity": "254.56 (~$45.87) OPG",
       "schedule_at": "2026-04-22T17:00:00+08:00",
       "status": "active",
       "time": "17:00"
+    },
+    "today:USDAI CHIP 📋": {
+      "amount": "",
+      "category": "today",
+      "date": "",
+      "key": "today:USDAI CHIP 📋",
+      "points": "-",
+      "project": "USDAI CHIP 📋",
+      "quantity": "-",
+      "schedule_at": "",
+      "status": "active",
+      "time": "待公布"
     }
   },
-  "signature": "7ae3b466a6f24ab63cba2b375c2ff175a317a77ba034d9b8be9cf1c271001be7",
+  "signature": "887b4d4cbf6bb7547cc8c3a1f6e4a237b4d399ae5a1d0ed0fff78a5ceec8d998",
   "soon_markers": {}
 }
