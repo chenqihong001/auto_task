@@ -1,43 +1,31 @@
 {
   "initialized": true,
   "records": {
-    "today:CHIP USDAI 📋": {
-      "amount": "",
+    "today:CHIP USD.AI 🎯": {
+      "amount": "750 (~$45.41)",
       "category": "today",
       "date": "",
-      "key": "today:CHIP USDAI 📋",
-      "points": "-",
-      "project": "CHIP USDAI 📋",
-      "quantity": "-",
-      "schedule_at": "",
+      "key": "today:CHIP USD.AI 🎯",
+      "points": "+230",
+      "project": "CHIP USD.AI 🎯",
+      "quantity": "750 (~$45.41) CHIP",
+      "schedule_at": "2026-04-22T20:20:00+08:00",
       "status": "active",
-      "time": "待公布"
+      "time": "20:20"
     },
     "today:OPG OpenGradient 🚀": {
-      "amount": "254.56 (~$45.87)",
+      "amount": "254.56 (~$58.85)",
       "category": "today",
       "date": "",
       "key": "today:OPG OpenGradient 🚀",
       "points": "+226",
       "project": "OPG OpenGradient 🚀",
-      "quantity": "254.56 (~$45.87) OPG",
+      "quantity": "254.56 (~$58.85) OPG",
       "schedule_at": "2026-04-22T17:00:00+08:00",
       "status": "active",
       "time": "17:00"
-    },
-    "today:USDAI CHIP 📋": {
-      "amount": "",
-      "category": "today",
-      "date": "",
-      "key": "today:USDAI CHIP 📋",
-      "points": "-",
-      "project": "USDAI CHIP 📋",
-      "quantity": "-",
-      "schedule_at": "",
-      "status": "active",
-      "time": "待公布"
     }
   },
-  "signature": "887b4d4cbf6bb7547cc8c3a1f6e4a237b4d399ae5a1d0ed0fff78a5ceec8d998",
+  "signature": "e46b1e58fbea55b24bae382ea63c37d6ffbb0dcca7ee7e7ff8acbf3e2e4d5ac3",
   "soon_markers": {}
 }
