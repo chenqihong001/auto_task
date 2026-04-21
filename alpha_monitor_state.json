@@ -2,18 +2,18 @@
   "initialized": true,
   "records": {
     "today:OPG opengradient 🚀": {
-      "amount": "430.62",
+      "amount": "254.56",
       "category": "today",
       "date": "",
       "key": "today:OPG opengradient 🚀",
       "points": "+226",
       "project": "OPG opengradient 🚀",
-      "quantity": "430.62 OPG",
+      "quantity": "254.56 OPG",
       "schedule_at": "2026-04-22T17:00:00+08:00",
       "status": "active",
       "time": "17:00"
     }
   },
-  "signature": "f9510e9a76ee157568fb34d3c9da668912500069a5bf671a22a74b9a2f8b8cdd",
+  "signature": "7ae3b466a6f24ab63cba2b375c2ff175a317a77ba034d9b8be9cf1c271001be7",
   "soon_markers": {}
 }
