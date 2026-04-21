@@ -1,31 +1,6 @@
 {
   "initialized": true,
-  "records": {
-    "today:CHIP USD.AI 🎯": {
-      "amount": "750 (~$43.82)",
-      "category": "today",
-      "date": "",
-      "key": "today:CHIP USD.AI 🎯",
-      "points": "+230",
-      "project": "CHIP USD.AI 🎯",
-      "quantity": "750 (~$43.82) CHIP",
-      "schedule_at": "2026-04-22T20:20:00+08:00",
-      "status": "active",
-      "time": "20:20"
-    },
-    "today:OPG OpenGradient 🚀": {
-      "amount": "254 (~$58.09)",
-      "category": "today",
-      "date": "",
-      "key": "today:OPG OpenGradient 🚀",
-      "points": "+226",
-      "project": "OPG OpenGradient 🚀",
-      "quantity": "254 (~$58.09) OPG",
-      "schedule_at": "2026-04-22T17:00:00+08:00",
-      "status": "active",
-      "time": "17:00"
-    }
-  },
-  "signature": "901f0dc1a439c400911499b0eb22e56947fe9f6bbc46ffc6b356f7b5fbc68e57",
+  "records": {},
+  "signature": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
   "soon_markers": {}
 }
