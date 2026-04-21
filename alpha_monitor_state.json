@@ -6,7 +6,7 @@
       "category": "today",
       "date": "",
       "key": "today:OPG opengradient 🚀",
-      "points": "-",
+      "points": "+226",
       "project": "OPG opengradient 🚀",
       "quantity": "-",
       "schedule_at": "2026-04-21T17:00:00+08:00",
@@ -14,6 +14,6 @@
       "time": "17:00"
     }
   },
-  "signature": "664a72915b2ba0e8795f1fabbaefaf43d5c3b4090c85a3cbc62747d29b47d03d",
+  "signature": "e55ffe20c5bf5da46bde387aae908d9e0d65328f5f664bc82c98f9e6e2cf4e72",
   "soon_markers": {}
 }
