@@ -2,42 +2,42 @@
   "initialized": true,
   "records": {
     "today:EVAA EVAA 🎯": {
-      "amount": "46 (~$28.47)",
+      "amount": "46 (~$29.49)",
       "category": "today",
       "date": "",
       "key": "today:EVAA EVAA 🎯",
       "points": "+228",
       "project": "EVAA EVAA 🎯",
-      "quantity": "46 (~$28.47) EVAA",
+      "quantity": "46 (~$29.49) EVAA",
       "schedule_at": "2026-04-25T17:00:00+08:00",
       "status": "active",
       "time": "17:00"
     },
     "today:RION RION 🎯": {
-      "amount": "93 (~$22.02)",
+      "amount": "93 (~$21.58)",
       "category": "today",
       "date": "",
       "key": "today:RION RION 🎯",
       "points": "+228",
       "project": "RION RION 🎯",
-      "quantity": "93 (~$22.02) RION",
+      "quantity": "93 (~$21.58) RION",
       "schedule_at": "2026-04-25T17:00:00+08:00",
       "status": "active",
       "time": "17:00"
     },
     "today:ROLL ROLL 🎯": {
-      "amount": "466 (~$19.55)",
+      "amount": "466 (~$18.75)",
       "category": "today",
       "date": "",
       "key": "today:ROLL ROLL 🎯",
       "points": "+228",
       "project": "ROLL ROLL 🎯",
-      "quantity": "466 (~$19.55) ROLL",
+      "quantity": "466 (~$18.75) ROLL",
       "schedule_at": "2026-04-25T17:00:00+08:00",
       "status": "active",
       "time": "17:00"
     }
   },
-  "signature": "652eae6f9cdd86c39f25fbf897fb6b51cc8ba21bf5d2c29c3ff74f32ac11ea56",
+  "signature": "c37930757b6cfcc935f5a0fe7a3c89b99552ce143760c575ef194d00807e9b0d",
   "soon_markers": {}
 }
