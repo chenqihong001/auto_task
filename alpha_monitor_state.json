@@ -1,6 +1,19 @@
 {
   "initialized": true,
-  "records": {},
-  "signature": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "records": {
+    "today:🎯": {
+      "amount": "",
+      "category": "today",
+      "date": "",
+      "key": "today:🎯",
+      "points": "+228",
+      "project": "🎯",
+      "quantity": "-",
+      "schedule_at": "2026-04-24T17:00:00+08:00",
+      "status": "active",
+      "time": "17:00"
+    }
+  },
+  "signature": "a4e706414f3cb7e4c048ad9e2e7ad4c59af9a88b9491f76a12a7738bd03ec63d",
   "soon_markers": {}
 }
