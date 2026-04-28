@@ -1,8 +1,6 @@
 name: Alpha Monitor
 
 on:
-  schedule:
-    - cron: "*/30 * * * *"
   workflow_dispatch:
     inputs:
       send_test_email:
